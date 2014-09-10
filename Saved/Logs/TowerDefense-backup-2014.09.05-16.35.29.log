@@ -1,0 +1,804 @@
+Log file open, 09/05/14 16:21:08
+LogInit:Display: Running engine for game: TowerDefense
+LogInit: Version: 4.4.1-2270799+++depot+UE4-Releases+4.4
+LogInit: API Version: 2255576
+LogInit: Compiled (64-bit): Aug 25 2014 14:19:12
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.4
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Unreal Engine/4.4/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2014.09.05-20.21.08:848][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.09.05-20.21.08:890][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.09.05-20.21.08:918][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.09.05-20.21.08:932][  0]LogInit: Object subsystem initialized
+[2014.09.05-20.21.08:936][  0]LogInit: Selected Device Profile: [Windows]
+[2014.09.05-20.21.08:936][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.09.05-20.21.08:945][  0]LogInit: Computer: NEODYMIUM
+[2014.09.05-20.21.08:945][  0]LogInit: User: Levente
+[2014.09.05-20.21.08:947][  0]LogInit: CPU Page size=4096, Cores=4
+[2014.09.05-20.21.08:947][  0]LogInit: High frequency timer resolution =2.143483 MHz
+[2014.09.05-20.21.08:948][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=131072.0GB
+[2014.09.05-20.21.08:948][  0]LogMemory: Platform Memory Stats for Windows
+[2014.09.05-20.21.08:948][  0]LogMemory: Process Physical Memory: 58.92 MB used, 58.92 MB peak
+[2014.09.05-20.21.08:948][  0]LogMemory: Process Virtual Memory: 36.18 MB used, 36.18 MB peak
+[2014.09.05-20.21.08:948][  0]LogMemory: Physical Memory: 3281.08 MB used, 8115.84 MB total
+[2014.09.05-20.21.08:948][  0]LogMemory: Virtual Memory: 278.70 MB used, 134217728.00 MB total
+[2014.09.05-20.21.09:074][  0]LogD3D11RHI: Found D3D11 adapter 0: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2014.09.05-20.21.09:074][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 1792MB of shared system memory, 1 output[s]
+[2014.09.05-20.21.09:118][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GTX 870M (Feature Level 11_0)
+[2014.09.05-20.21.09:118][  0]LogD3D11RHI: Adapter has 2992MB of dedicated video memory, 0MB of dedicated system memory, and 4057MB of shared system memory, 0 output[s]
+[2014.09.05-20.21.09:122][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2014.09.05-20.21.09:122][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2014.09.05-20.21.09:122][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.09.05-20.21.09:131][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.09.05-20.21.09:156][  0]LogD3D11RHI: Async texture creation enabled
+[2014.09.05-20.21.09:404][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.09.05-20.21.12:246][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.05-20.21.13:106][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.05-20.21.13:182][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.09.05-20.21.13:271][  0]LogDerivedDataCache: Loaded boot cache 0.09s 44MB C:/Users/Levente/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.09.05-20.21.13:271][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Levente/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc
+[2014.09.05-20.21.13:271][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Levente/Documents/Unreal Projects/TowerDefense/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.09.05-20.21.13:271][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.09.05-20.21.13:307][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2014.09.05-20.21.13:320][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Levente/AppData/Local/UnrealEngine/4.4/DerivedDataCache: Writable
+[2014.09.05-20.21.13:609][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.09.05-20.21.13:609][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.09.05-20.21.14:275][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.09.05-20.21.15:521][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_1a18_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_d6c_0///////STATCAT_Advanced////
+[2014.09.05-20.21.15:521][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.09.05-20.21.15:648][  0]SourceControl: Info Source control is disabled
+[2014.09.05-20.21.15:648][  0]SourceControl: Info Source control is disabled
+[2014.09.05-20.21.15:655][  0]SourceControl: Info Source control is disabled
+[2014.09.05-20.21.15:887][  0]BlueprintLog: New page: Editor Load
+[2014.09.05-20.21.16:026][  0]LogObj: 21438 objects as part of root set at end of initial load.
+[2014.09.05-20.21.16:026][  0]LogUObjectAllocator: 4218648 out of 0 bytes used by permanent object pool.
+[2014.09.05-20.21.16:245][  0]LogEngine: Initializing Engine...
+[2014.09.05-20.21.16:367][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2014.09.05-20.21.16:380][  0]LogInit: FAudioDevice initialized.
+[2014.09.05-20.21.16:402][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.09.05-20.21.16:431][  0]LogDerivedDataCache: Saved boot cache 0.03s 39MB C:/Users/Levente/AppData/Local/UnrealEngine/4.4/DerivedDataCache/Boot.ddc.
+[2014.09.05-20.21.16:439][  0]LogInit: Texture streaming: Enabled
+[2014.09.05-20.21.16:484][  0]LogInit: Transaction tracking system initialized
+[2014.09.05-20.21.16:635][  0]LogAssetRegistry: FAssetRegistry took 0.0112 seconds to start up
+[2014.09.05-20.21.17:324][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.05-20.21.17:771][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.09.05-20.21.17:950][  0]LogConsoleResponse:Display: 
+[2014.09.05-20.21.18:162][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_19f4_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_d6c_0///////STATCAT_Advanced////
+[2014.09.05-20.21.18:162][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_150c_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_d6c_0///////STATCAT_Advanced////
+[2014.09.05-20.21.18:162][  0]SourceControl: Info Source control is disabled
+[2014.09.05-20.21.18:162][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Levente/Documents/Unreal Projects/TowerDefense/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.09.05-20.21.18:162][  0]LightingResults: New page: Lighting Build
+[2014.09.05-20.21.18:172][  0]MapCheck: New page: Map Check
+[2014.09.05-20.21.18:172][  0]LightingResults: New page: Lighting Build
+[2014.09.05-20.21.18:191][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007B2B940860
+[2014.09.05-20.21.18:455][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.09.05-20.21.18:455][  0]LogAIModule: Creating AISystem for world Example_Map
+[2014.09.05-20.21.18:456][  0]Cmd: MAP CHECKDEP
+[2014.09.05-20.21.18:456][  0]MapCheck: New page: Example_Map - Sep 5, 2014, 12:21:18 PM
+[2014.09.05-20.21.18:526][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [70.475ms] ==========
+[2014.09.05-20.21.18:526][  0]LogFileHelpers: Loading map 'Example_Map' took 0.365
+[2014.09.05-20.21.18:638][  0]LogCollectionManager: Loaded 0 collections in 0.001458 seconds
+[2014.09.05-20.21.18:731][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.09.05-20.21.18:791][  0]LogLoad: Full Startup: 11.69 seconds (BP compile: 0.07 seconds)
+[2014.09.05-20.21.19:038][  0]LogRenderer:Warning: Reallocating scene render targets to support 1904x1584.
+[2014.09.05-20.21.19:478][  3]LogAssetRegistry: Asset discovery search completed in 2.8545 seconds
+[2014.09.05-20.21.25:546][ 82]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1
+[2014.09.05-20.21.25:546][ 82]LightingResults: New page: Lighting Build
+[2014.09.05-20.21.25:584][ 82]LoadErrors: New page: Loading map: Template_Default.umap
+[2014.09.05-20.21.25:585][ 82]MapCheck: New page: Map Check
+[2014.09.05-20.21.25:585][ 82]LightingResults: New page: Lighting Build
+[2014.09.05-20.21.25:616][ 82]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007B2B438C20
+[2014.09.05-20.21.25:749][ 82]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.09.05-20.21.25:749][ 82]LogAIModule: Creating AISystem for world Template_Default
+[2014.09.05-20.21.25:749][ 82]Cmd: MAP CHECKDEP
+[2014.09.05-20.21.25:750][ 82]MapCheck: New page: Untitled_1 - Sep 5, 2014, 12:21:25 PM
+[2014.09.05-20.21.25:825][ 82]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [75.052ms] ==========
+[2014.09.05-20.21.25:825][ 82]LogFileHelpers: Loading map 'Template_Default' took 0.280
+[2014.09.05-20.22.04:844][118]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Meshes'
+[2014.09.05-20.22.06:058][168]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2014.09.05-20.22.06:776][203]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ArchVis'
+[2014.09.05-20.22.08:795][295]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/ArchVis/Mesh'
+[2014.09.05-20.22.09:848][331]LogTexture:Display: Building textures: T_Wood_S (AutoDXT)
+[2014.09.05-20.22.11:957][331]LogTexture:Display: Building textures: T_Table_M (DXT1)
+[2014.09.05-20.22.12:452][331]LogTexture:Display: Building textures: T_Table_N (BC5)
+[2014.09.05-20.22.12:977][331]LogTexture:Display: Building textures: T_Wood (DXT1)
+[2014.09.05-20.22.16:170][331]LogTexture:Display: Building textures: T_Table_AOMASK (DXT1)
+[2014.09.05-20.22.16:789][331]LogActorFactory: Actor Factory created SM_CoffeeTable
+[2014.09.05-20.22.18:198][389]LogActorFactory: Actor Factory created SM_CoffeeTable
+[2014.09.05-20.22.20:518][472]LogActorFactory: Actor Factory created SM_CoffeeTable
+[2014.09.05-20.22.21:425][509]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.09.05-20.22.21:425][509]PIE: New page: PIE session: Untitled_1 (Sep 5, 2014, 12:22:21 PM)
+[2014.09.05-20.22.21:428][509]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002472s)
+[2014.09.05-20.22.21:428][509]LogPlayLevel: PIE: World Init took: (0.000481s)
+[2014.09.05-20.22.21:428][509]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.003095s)
+[2014.09.05-20.22.21:677][509]BlueprintLog:Warning: Warning Blueprint MyProjectile has been migrated and requires re-saving to avoid import errors
+[2014.09.05-20.22.21:681][509]BlueprintLog:Warning: Warning Blueprint MyCharacter has been migrated and requires re-saving to avoid import errors
+[2014.09.05-20.22.21:681][509]BlueprintLog:Warning: Warning Blueprint MyHUD has been migrated and requires re-saving to avoid import errors
+[2014.09.05-20.22.21:682][509]BlueprintLog:Warning: Warning Blueprint MyGame has been migrated and requires re-saving to avoid import errors
+[2014.09.05-20.22.21:682][509]LogWorld: Game class is 'MyGame_C'
+[2014.09.05-20.22.21:684][509]LogAIModule: Creating AISystem for world Template_Default
+[2014.09.05-20.22.21:685][509]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 60) at 2014.09.05-16.22.21
+[2014.09.05-20.22.21:685][509]LogWorld: Bringing up level for play took: 0.000986
+[2014.09.05-20.22.21:691][509]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.374
+[2014.09.05-20.22.21:755][510]LogRenderer:Warning: Reallocating scene render targets to support 1904x1592.
+[2014.09.05-20.22.27:429][825]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007B2DD80B80
+[2014.09.05-20.22.48:872][813]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor)
+[2014.09.05-20.22.49:656][849]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_CoffeeTable)
+[2014.09.05-20.22.53:073][  9]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.09.05-20.22.53:073][  9]PIE: New page: PIE session: Untitled_1 (Sep 5, 2014, 12:22:53 PM)
+[2014.09.05-20.22.53:074][  9]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001284s)
+[2014.09.05-20.22.53:075][  9]LogPlayLevel: PIE: World Init took: (0.000478s)
+[2014.09.05-20.22.53:075][  9]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.001899s)
+[2014.09.05-20.22.53:114][  9]LogWorld: Game class is 'MyGame_C'
+[2014.09.05-20.22.53:116][  9]LogAIModule: Creating AISystem for world Template_Default
+[2014.09.05-20.22.53:117][  9]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 60) at 2014.09.05-16.22.53
+[2014.09.05-20.22.53:117][  9]LogWorld: Bringing up level for play took: 0.000852
+[2014.09.05-20.22.53:118][  9]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.199
+[2014.09.05-20.22.58:075][265]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007B2709CF40
+[2014.09.05-20.22.58:696][293]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_CoffeeTable)
+[2014.09.05-20.23.03:786][529]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.09.05-20.23.03:786][529]PIE: New page: PIE session: Untitled_1 (Sep 5, 2014, 12:23:03 PM)
+[2014.09.05-20.23.03:787][529]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001275s)
+[2014.09.05-20.23.03:788][529]LogPlayLevel: PIE: World Init took: (0.000488s)
+[2014.09.05-20.23.03:788][529]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.001896s)
+[2014.09.05-20.23.03:828][529]LogWorld: Game class is 'MyGame_C'
+[2014.09.05-20.23.03:830][529]LogAIModule: Creating AISystem for world Template_Default
+[2014.09.05-20.23.03:830][529]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 60) at 2014.09.05-16.23.03
+[2014.09.05-20.23.03:831][529]LogWorld: Bringing up level for play took: 0.000932
+[2014.09.05-20.23.03:832][529]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.514
+[2014.09.05-20.23.11:838][951]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007B2B438180
+[2014.09.05-20.23.33:474][807]LogVSAccessor:Warning: Couldn't access Visual Studio
+[2014.09.05-20.23.33:477][807]LogVSAccessor:Warning: Couldn't access module table
+[2014.09.05-20.23.33:477][807]LogVSAccessor:Warning: Couldn't access module table
+[2014.09.05-20.23.33:477][807]LogVSAccessor:Warning: Couldn't access module table
+[2014.09.05-20.23.33:477][807]LogVSAccessor:Warning: Couldn't access module table
+[2014.09.05-20.23.33:477][807]LogVSAccessor:Warning: Couldn't access module table
+[2014.09.05-20.23.33:477][807]LogVSAccessor:Warning: Couldn't access module table
+[2014.09.05-20.23.33:477][807]LogVSAccessor:Warning: Couldn't access module table
+[2014.09.05-20.23.33:477][807]LogVSAccessor:Warning: Couldn't access module table
+[2014.09.05-20.23.33:477][807]LogVSAccessor:Warning: Couldn't access module table
+[2014.09.05-20.23.33:477][807]LogVSAccessor:Warning: Couldn't access module table
+[2014.09.05-20.23.33:477][807]LogVSAccessor:Warning: Couldn't access module table
+[2014.09.05-20.23.33:477][807]LogVSAccessor:Warning: Couldn't access module table
+[2014.09.05-20.23.33:477][807]LogVSAccessor:Warning: Couldn't access module table
+[2014.09.05-20.23.33:477][807]LogVSAccessor:Warning: Couldn't access module table
+[2014.09.05-20.23.33:478][807]LogVSAccessor:Warning: Couldn't access module table
+[2014.09.05-20.23.33:478][807]LogVSAccessor:Warning: Couldn't access module table
+[2014.09.05-20.23.33:478][807]LogVSAccessor:Warning: Couldn't access module table
+[2014.09.05-20.23.33:478][807]LogVSAccessor:Warning: Couldn't access module table
+[2014.09.05-20.23.33:478][807]LogVSAccessor:Warning: Couldn't access module table
+[2014.09.05-20.23.33:478][807]LogVSAccessor:Warning: Couldn't access module table
+[2014.09.05-20.23.33:478][807]LogVSAccessor:Warning: Couldn't access module table
+[2014.09.05-20.23.33:478][807]LogVSAccessor:Warning: Couldn't access module table
+[2014.09.05-20.23.33:478][807]LogVSAccessor:Warning: Couldn't access module table
+[2014.09.05-20.23.33:478][807]LogVSAccessor:Warning: Couldn't access module table
+[2014.09.05-20.23.33:478][807]LogVSAccessor:Warning: Couldn't access module table
+[2014.09.05-20.23.33:478][807]LogVSAccessor:Warning: Couldn't access module table
+[2014.09.05-20.23.33:478][807]LogVSAccessor:Warning: Couldn't access module table
+[2014.09.05-20.23.33:478][807]LogVSAccessor:Warning: Couldn't access module table
+[2014.09.05-20.23.33:478][807]LogVSAccessor:Warning: Couldn't access module table
+[2014.09.05-20.23.33:478][807]LogVSAccessor:Warning: Couldn't access module table
+[2014.09.05-20.23.33:478][807]LogVSAccessor:Warning: Couldn't access module table
+[2014.09.05-20.23.33:478][807]LogVSAccessor:Warning: Couldn't access module table
+[2014.09.05-20.23.33:478][807]LogVSAccessor:Warning: Couldn't access module table
+[2014.09.05-20.23.33:478][807]LogVSAccessor:Warning: Couldn't access module table
+[2014.09.05-20.23.33:478][807]LogVSAccessor:Warning: Couldn't access module table
+[2014.09.05-20.23.33:478][807]LogVSAccessor:Warning: Couldn't access module table
+[2014.09.05-20.23.33:478][807]LogVSAccessor:Warning: Couldn't access module table
+[2014.09.05-20.23.33:478][807]LogVSAccessor:Warning: Couldn't access module table
+[2014.09.05-20.23.33:478][807]LogVSAccessor:Warning: Couldn't access module table
+[2014.09.05-20.23.33:479][807]LogVSAccessor:Warning: Couldn't access module table
+[2014.09.05-20.23.33:479][807]LogVSAccessor:Warning: Couldn't access module table
+[2014.09.05-20.23.33:479][807]LogVSAccessor:Warning: Couldn't access module table
+[2014.09.05-20.23.33:479][807]LogVSAccessor:Warning: Couldn't access module table
+[2014.09.05-20.23.33:479][807]LogVSAccessor:Warning: Couldn't access module table
+[2014.09.05-20.23.33:479][807]LogVSAccessor:Warning: Couldn't access module table
+[2014.09.05-20.23.33:479][807]LogVSAccessor:Warning: Couldn't access module table
+[2014.09.05-20.23.33:479][807]LogVSAccessor:Warning: Couldn't access module table
+[2014.09.05-20.23.33:479][807]LogVSAccessor:Warning: Couldn't access module table
+[2014.09.05-20.23.33:479][807]LogVSAccessor:Warning: Couldn't access module table
+[2014.09.05-20.23.33:479][807]LogVSAccessor:Warning: Couldn't access module table
+[2014.09.05-20.23.33:479][807]LogVSAccessor:Warning: Couldn't access module table
+[2014.09.05-20.23.33:479][807]LogVSAccessor:Warning: Couldn't access module table
+[2014.09.05-20.23.33:479][807]LogVSAccessor:Warning: Couldn't access module table
+[2014.09.05-20.23.33:479][807]LogVSAccessor:Warning: Couldn't access module table
+[2014.09.05-20.23.33:479][807]LogVSAccessor:Warning: Couldn't access module table
+[2014.09.05-20.23.33:486][807]LogVSAccessor:Warning: Couldn't access module table
+[2014.09.05-20.23.33:486][807]LogVSAccessor:Warning: Couldn't access module table
+[2014.09.05-20.23.33:486][807]LogVSAccessor:Warning: Couldn't access module table
+[2014.09.05-20.23.33:486][807]LogVSAccessor:Warning: Couldn't access module table
+[2014.09.05-20.23.33:486][807]LogVSAccessor:Warning: Couldn't access module table
+[2014.09.05-20.23.33:487][807]LogVSAccessor:Warning: Couldn't access module table
+[2014.09.05-20.23.33:488][807]LogVSAccessor:Warning: Couldn't access module table
+[2014.09.05-20.23.33:488][807]LogVSAccessor:Warning: Couldn't access module table
+[2014.09.05-20.23.33:497][807]LogVSAccessor:Warning: Couldn't access module table
+[2014.09.05-20.23.33:497][807]LogVSAccessor:Warning: Couldn't access module table
+[2014.09.05-20.23.33:498][807]LogVSAccessor:Warning: Couldn't access module table
+[2014.09.05-20.23.33:498][807]LogVSAccessor:Warning: Couldn't access module table
+[2014.09.05-20.23.59:143][857]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.09.05-20.25.58:483][445]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.09.05-20.25.58:483][445]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.09.05-20.25.58:546][446]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.09.05-20.25.58:547][446]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.09.05-20.25.58:548][446]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.09.05-20.25.58:794][452]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.09.05-20.25.58:795][452]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.09.05-20.25.58:835][453]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.09.05-20.25.58:836][453]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.09.05-20.25.58:836][453]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.09.05-20.25.58:837][453]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.09.05-20.25.58:878][454]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.09.05-20.25.58:878][454]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.09.05-20.25.58:879][454]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.09.05-20.25.58:879][454]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.09.05-20.25.58:880][454]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.09.05-20.25.58:923][455]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.09.05-20.26.14:611][790]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.09.05-20.26.14:780][794]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.09.05-20.26.15:404][806]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.09.05-20.26.15:405][806]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.09.05-20.26.15:406][806]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.09.05-20.26.15:407][806]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.09.05-20.26.15:407][806]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.09.05-20.26.15:408][806]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.09.05-20.26.15:410][806]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.09.05-20.26.15:451][807]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.09.05-20.26.15:452][807]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.09.05-20.26.16:069][820]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.09.05-20.26.16:071][820]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.09.05-20.26.16:071][820]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.09.05-20.26.16:122][821]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.09.05-20.26.16:180][822]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.09.05-20.26.16:225][823]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.09.05-20.26.41:707][387]LogRenderer:Warning: Reallocating scene render targets to support 2704x1592.
+[2014.09.05-20.26.41:802][389]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 371/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.26.43:681][433]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2014.09.05-20.26.43:681][433]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_0) Not registered. Aborting.
+[2014.09.05-20.26.46:187][493]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Users/Levente/Documents/Unreal Projects/TowerDefense/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.09.05-20.26.46:327][493]LogSavePackage: Save=133.479477ms
+[2014.09.05-20.26.46:327][493]LogSavePackage: Moving '../../../../../../Users/Levente/Documents/Unreal Projects/TowerDefense/Saved/MyCharacter25172853449A2E5B6DA03694A54E1DAC.tmp' to '../../../../../../Users/Levente/Documents/Unreal Projects/TowerDefense/Content/Blueprints/MyCharacter.uasset'
+[2014.09.05-20.26.50:373][638]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.26.51:334][673]MapCheck: New page: Map Check
+[2014.09.05-20.26.51:355][673]LightingResults: New page: Lighting Build - Sep 5, 2014, 12:26:51 PM
+[2014.09.05-20.26.54:600][673]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2014.09.05-20.26.54:605][673]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.09.05-20.26.54:605][673]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.09.05-20.26.54:605][673]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.09.05-20.26.54:605][673]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.09.05-20.26.54:605][673]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.09.05-20.26.54:702][673]LogEditorBuildUtils: Build time 0:00:03
+[2014.09.05-20.26.54:726][674]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.26.54:776][674]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_CoffeTable_MAT_Inst, compiling.
+[2014.09.05-20.26.54:783][674]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_CoffeTable_MAT_Inst, compiling.
+[2014.09.05-20.26.54:784][674]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_CoffeTable_MAT_Inst, compiling.
+[2014.09.05-20.26.56:357][676]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Template_Map_Floor)
+[2014.09.05-20.26.56:416][676]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.26.56:717][681]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2014.09.05-20.26.57:275][689]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.26.58:371][721]Job is a success!
+[2014.09.05-20.26.58:565][722]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2014.09.05-20.26.58:717][722]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2014.09.05-20.26.58:854][722]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2014.09.05-20.26.58:950][722]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2014.09.05-20.26.58:999][722]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2014.09.05-20.26.59:008][722]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
+[2014.09.05-20.26.59:034][722]Lightmass on NEODYMIUM: 1.69 sec total, 205 ms importing, 1 ms setup, 403 ms photons, 1.06 sec processing, 0 ms extra exporting [3/3 mappings]. Threads: 9.24 sec total, 549 ms processing.
+[2014.09.05-20.26.59:049][722]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007B3CC92FC0
+[2014.09.05-20.26.59:055][722]LogStaticLightingSystem:Warning: Illumination: 7.61 sec (478 ms encoding lightmaps)
+[2014.09.05-20.26.59:055][722]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 4 textures
+[2014.09.05-20.26.59:055][722]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2014.09.05-20.26.59:617][723]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.09.05-20.26.59:617][723]MapCheck: New page: Untitled_1 - Sep 5, 2014, 12:26:59 PM
+[2014.09.05-20.26.59:724][723]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [107.161ms] ==========
+[2014.09.05-20.27.02:503][789]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.05-20.27.02:504][789]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2014.09.05-20.27.02:533][789]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a SkeletalMeshComponent, therefore ' Target ' must have a connection
+[2014.09.05-20.27.02:535][789]LogBlueprint:Warning: [compiler] Warning [0355.43] Compile of MyCharacter failed. 1 Fatal Issue(s) 0 Warning(s) [in 7 ms]
+[2014.09.05-20.27.02:644][789]LogPlayLevel: PIE:  Blueprint regeneration took 140 ms (1 blueprints)
+[2014.09.05-20.27.07:075][789]BlueprintLog: Info Blueprint MyCharacter failed to compile
+[2014.09.05-20.27.07:076][789]PIE: New page: PIE session: Untitled_1 (Sep 5, 2014, 12:27:07 PM)
+[2014.09.05-20.27.07:078][789]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001860s)
+[2014.09.05-20.27.07:078][789]LogPlayLevel: PIE: World Init took: (0.000536s)
+[2014.09.05-20.27.07:078][789]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.002585s)
+[2014.09.05-20.27.07:122][789]LogWorld: Game class is 'MyGame_C'
+[2014.09.05-20.27.07:123][789]LogAIModule: Creating AISystem for world Template_Default
+[2014.09.05-20.27.07:125][789]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 60) at 2014.09.05-16.27.07
+[2014.09.05-20.27.07:125][789]LogWorld: Bringing up level for play took: 0.001696
+[2014.09.05-20.27.07:127][789]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 3.809
+[2014.09.05-20.27.07:154][789]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 377/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.27.10:499][979]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007B3DC8B420
+[2014.09.05-20.27.10:499][979]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 371/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.27.16:887][272]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.27.27:055][661]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.09.05-20.27.27:457][661]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.27.30:311][740]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.27.34:901][869]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Users/Levente/Documents/Unreal Projects/TowerDefense/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.09.05-20.27.35:026][869]LogSavePackage: Save=121.622147ms
+[2014.09.05-20.27.35:026][869]LogSavePackage: Moving '../../../../../../Users/Levente/Documents/Unreal Projects/TowerDefense/Saved/MyCharacter7D14ED1B441B630609577DA170768E9C.tmp' to '../../../../../../Users/Levente/Documents/Unreal Projects/TowerDefense/Content/Blueprints/MyCharacter.uasset'
+[2014.09.05-20.27.35:057][870]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.27.37:197][917]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.05-20.27.37:249][917]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2014.09.05-20.27.37:249][917]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_1) Not registered. Aborting.
+[2014.09.05-20.27.37:249][917]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2014.09.05-20.27.37:271][917]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a AnimInstance, therefore ' Target ' must have a connection
+[2014.09.05-20.27.37:296][917]LogBlueprint:Warning: [compiler] Warning [0390.19] Compile of MyCharacter failed. 1 Fatal Issue(s) 0 Warning(s) [in 29 ms]
+[2014.09.05-20.27.37:423][917]LogPlayLevel: PIE:  Blueprint regeneration took 226 ms (1 blueprints)
+[2014.09.05-20.27.39:194][917]BlueprintLog: Info Blueprint MyCharacter failed to compile
+[2014.09.05-20.27.39:194][917]PIE: New page: PIE session: Untitled_1 (Sep 5, 2014, 12:27:39 PM)
+[2014.09.05-20.27.39:196][917]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001697s)
+[2014.09.05-20.27.39:196][917]LogPlayLevel: PIE: World Init took: (0.000600s)
+[2014.09.05-20.27.39:196][917]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.002452s)
+[2014.09.05-20.27.39:250][917]LogWorld: Game class is 'MyGame_C'
+[2014.09.05-20.27.39:252][917]LogAIModule: Creating AISystem for world Template_Default
+[2014.09.05-20.27.39:253][917]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 60) at 2014.09.05-16.27.39
+[2014.09.05-20.27.39:253][917]LogWorld: Bringing up level for play took: 0.001115
+[2014.09.05-20.27.39:254][917]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 1.937
+[2014.09.05-20.27.39:287][917]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 377/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.27.48:178][154]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007B42661EE0
+[2014.09.05-20.27.48:178][154]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 371/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.27.49:799][200]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.27.52:745][283]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.27.53:335][300]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.27.53:793][311]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.27.57:093][412]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.27.59:117][484]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.27.59:648][504]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.28.00:862][537]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyCharacter" FILE="../../../../../../Users/Levente/Documents/Unreal Projects/TowerDefense/Content/Blueprints/MyCharacter.uasset" SILENT=true
+[2014.09.05-20.28.00:979][537]LogSavePackage: Save=112.666626ms
+[2014.09.05-20.28.00:979][537]LogSavePackage: Moving '../../../../../../Users/Levente/Documents/Unreal Projects/TowerDefense/Saved/MyCharacter2D53DB7D49DD966214DD1E802023B3BC.tmp' to '../../../../../../Users/Levente/Documents/Unreal Projects/TowerDefense/Content/Blueprints/MyCharacter.uasset'
+[2014.09.05-20.28.01:008][538]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.28.03:058][579]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.09.05-20.28.03:092][579]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2014.09.05-20.28.03:092][579]LogPlayLevel: [PIE] Compiling MyCharacter before PIE...
+[2014.09.05-20.28.03:204][579]LogPlayLevel: PIE:  Blueprint regeneration took 146 ms (1 blueprints)
+[2014.09.05-20.28.03:204][579]PIE: New page: PIE session: Untitled_1 (Sep 5, 2014, 12:28:03 PM)
+[2014.09.05-20.28.03:206][579]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001549s)
+[2014.09.05-20.28.03:208][579]LogPlayLevel: PIE: World Init took: (0.002097s)
+[2014.09.05-20.28.03:208][579]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.003785s)
+[2014.09.05-20.28.03:236][579]LogWorld: Game class is 'MyGame_C'
+[2014.09.05-20.28.03:237][579]LogAIModule: Creating AISystem for world Template_Default
+[2014.09.05-20.28.03:238][579]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 60) at 2014.09.05-16.28.03
+[2014.09.05-20.28.03:238][579]LogWorld: Bringing up level for play took: 0.001071
+[2014.09.05-20.28.03:239][579]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.077
+[2014.09.05-20.28.05:841][640]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007B400DC180
+[2014.09.05-20.28.05:841][640]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 371/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.28.07:240][670]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.28.08:785][731]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.09.05-20.28.08:785][731]PIE: New page: PIE session: Untitled_1 (Sep 5, 2014, 12:28:08 PM)
+[2014.09.05-20.28.08:786][731]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001303s)
+[2014.09.05-20.28.08:791][731]LogPlayLevel: PIE: World Init took: (0.004343s)
+[2014.09.05-20.28.08:791][731]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.005976s)
+[2014.09.05-20.28.08:827][731]LogWorld: Game class is 'MyGame_C'
+[2014.09.05-20.28.08:828][731]LogAIModule: Creating AISystem for world Template_Default
+[2014.09.05-20.28.08:829][731]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 60) at 2014.09.05-16.28.08
+[2014.09.05-20.28.08:829][731]LogWorld: Bringing up level for play took: 0.001052
+[2014.09.05-20.28.08:830][731]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.487
+[2014.09.05-20.28.08:849][731]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 377/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.28.14:107][ 36]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007B41BEF060
+[2014.09.05-20.28.14:123][ 37]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007B42297BA0
+[2014.09.05-20.28.14:124][ 37]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 371/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.28.17:948][212]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.28.18:684][242]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2014.09.05-20.28.27:875][684]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.28.43:324][411]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.28.48:879][675]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.28.55:643][978]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.28.59:289][162]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_CoffeeTable)
+[2014.09.05-20.29.06:436][454]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.29.08:637][548]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.29.14:686][838]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.29.18:517][ 14]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.29.43:250][164]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.29.50:112][470]LogUObjectHash:Warning: Ambiguous search, could be Model /Temp/Untitled_1.Template_Default:PersistentLevel.BoxBrush_2.Model_9 or Model /Temp/Untitled_1.Template_Default:PersistentLevel.BoxBrush.Model_9
+[2014.09.05-20.29.54:672][659]LogUObjectHash:Warning: Ambiguous search, could be Model /Temp/Untitled_1.Template_Default:PersistentLevel.BoxBrush_3.Model_9 or Model /Temp/Untitled_1.Template_Default:PersistentLevel.BoxBrush_2.Model_9
+[2014.09.05-20.29.54:672][659]LogUObjectHash:Warning: Ambiguous search, could be Model /Temp/Untitled_1.Template_Default:PersistentLevel.BoxBrush_3.Model_9 or Model /Temp/Untitled_1.Template_Default:PersistentLevel.BoxBrush.Model_9
+[2014.09.05-20.29.58:988][839]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.09.05-20.29.58:989][839]PIE: New page: PIE session: Untitled_1 (Sep 5, 2014, 12:29:58 PM)
+[2014.09.05-20.29.58:992][839]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003016s)
+[2014.09.05-20.29.58:993][839]LogPlayLevel: PIE: World Init took: (0.000939s)
+[2014.09.05-20.29.58:993][839]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.004216s)
+[2014.09.05-20.29.59:038][839]LogWorld: Game class is 'MyGame_C'
+[2014.09.05-20.29.59:040][839]LogAIModule: Creating AISystem for world Template_Default
+[2014.09.05-20.29.59:041][839]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 60) at 2014.09.05-16.29.59
+[2014.09.05-20.29.59:041][839]LogWorld: Bringing up level for play took: 0.001131
+[2014.09.05-20.29.59:042][839]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.276
+[2014.09.05-20.29.59:072][839]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 377/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.30.05:672][218]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007B3CCC3100
+[2014.09.05-20.30.05:691][219]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 371/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.30.08:683][351]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.09.05-20.30.08:683][351]PIE: New page: PIE session: Untitled_1 (Sep 5, 2014, 12:30:08 PM)
+[2014.09.05-20.30.08:686][351]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003044s)
+[2014.09.05-20.30.08:691][351]LogPlayLevel: PIE: World Init took: (0.004423s)
+[2014.09.05-20.30.08:691][351]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.007949s)
+[2014.09.05-20.30.08:749][351]LogWorld: Game class is 'MyGame_C'
+[2014.09.05-20.30.08:751][351]LogAIModule: Creating AISystem for world Template_Default
+[2014.09.05-20.30.08:752][351]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 60) at 2014.09.05-16.30.08
+[2014.09.05-20.30.08:752][351]LogWorld: Bringing up level for play took: 0.001169
+[2014.09.05-20.30.08:753][351]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.564
+[2014.09.05-20.30.08:811][351]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 377/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.30.09:520][371]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007B420D49A0
+[2014.09.05-20.30.09:576][372]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 371/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.30.14:218][588]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2014.09.05-20.30.14:377][591]LogEditorViewport: Clicking on Actor (double click): DirectionalLight (Light Source)
+[2014.09.05-20.30.18:678][792]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.30.18:723][794]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.30.18:974][808]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.30.19:074][814]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.30.19:156][818]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.30.19:319][827]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.30.19:421][833]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.30.19:626][844]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.30.20:159][876]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.30.20:559][892]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.30.20:645][896]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.30.20:729][901]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.30.20:806][905]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.30.21:070][917]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.30.21:187][924]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.30.21:392][933]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.30.21:711][949]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.30.21:819][955]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.30.21:894][959]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.30.21:952][962]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.30.22:150][971]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.30.22:256][976]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.30.22:400][984]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.30.22:669][  0]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.30.26:196][176]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.09.05-20.30.27:617][237]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Shere)
+[2014.09.05-20.30.27:641][238]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.30.28:817][285]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (Light Source)
+[2014.09.05-20.30.32:668][457]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.30.33:341][486]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.30.37:414][661]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.30.37:712][672]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.30.37:823][678]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.30.37:908][682]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.30.37:964][685]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.30.38:033][689]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.30.38:088][692]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.30.38:169][696]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.30.38:222][699]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.30.38:418][709]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.30.49:077][182]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.30.49:507][199]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.30.51:919][304]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.31.00:661][685]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.31.06:627][872]MapCheck: New page: Map Check
+[2014.09.05-20.31.06:665][872]LightingResults: New page: Lighting Build - Sep 5, 2014, 12:31:06 PM
+[2014.09.05-20.31.11:405][872]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2014.09.05-20.31.11:437][872]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.09.05-20.31.11:437][872]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.09.05-20.31.11:437][872]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.09.05-20.31.11:437][872]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.09.05-20.31.11:437][872]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.09.05-20.31.11:499][872]LogEditorBuildUtils: Build time 0:00:04
+[2014.09.05-20.31.11:513][872]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.31.12:601][904]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.31.13:972][940]Job is a success!
+[2014.09.05-20.31.14:091][941]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2014.09.05-20.31.14:139][941]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2014.09.05-20.31.14:145][941]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2014.09.05-20.31.14:151][941]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2014.09.05-20.31.14:157][941]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2014.09.05-20.31.14:165][941]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2014.09.05-20.31.14:376][941]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
+[2014.09.05-20.31.14:468][941]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8)
+[2014.09.05-20.31.14:598][941]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (BGRA8)
+[2014.09.05-20.31.14:635][941]Lightmass on NEODYMIUM: 2.19 sec total, 510 ms importing, 1 ms setup, 401 ms photons, 1.05 sec processing, 0 ms extra exporting [27/27 mappings]. Threads: 9.17 sec total, 590 ms processing.
+[2014.09.05-20.31.14:643][941]LogStaticLightingSystem:Warning: Illumination: 7.90 sec (525 ms encoding lightmaps)
+[2014.09.05-20.31.14:643][941]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 6 textures
+[2014.09.05-20.31.14:643][941]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 5 textures
+[2014.09.05-20.31.15:412][942]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.09.05-20.31.15:412][942]MapCheck: New page: Untitled_1 - Sep 5, 2014, 12:31:15 PM
+[2014.09.05-20.31.15:500][942]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [87.987ms] ==========
+[2014.09.05-20.31.16:360][967]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.31.21:927][209]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.31.22:213][219]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.31.27:921][394]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.31.31:921][575]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.31.35:184][722]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.31.36:579][767]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.31.37:148][792]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.31.40:015][919]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.31.43:542][ 21]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.31.44:665][ 73]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.32.02:331][826]Cmd: MAP CHECK
+[2014.09.05-20.32.02:331][826]MapCheck: New page: Untitled_1 - Sep 5, 2014, 12:32:02 PM
+[2014.09.05-20.32.02:380][826]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [48.768ms] ==========
+[2014.09.05-20.32.02:406][827]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.32.04:125][875]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.32.08:310][ 47]MapCheck: New page: Map Check
+[2014.09.05-20.32.08:343][ 47]Cmd: MAP REBUILD ALLVISIBLE
+[2014.09.05-20.32.08:343][ 47]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2014.09.05-20.32.08:359][ 47]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2014.09.05-20.32.08:360][ 47]MapCheck: New page: Untitled_1 - Sep 5, 2014, 12:32:08 PM
+[2014.09.05-20.32.08:418][ 47]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [59.071ms] ==========
+[2014.09.05-20.32.08:439][ 47]LogEditorBuildUtils: Build time 0:00:00
+[2014.09.05-20.32.08:462][ 48]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.32.15:822][373]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.32.16:322][389]MapCheck: New page: Map Check
+[2014.09.05-20.32.16:369][389]Cmd: MAP REBUILD ALLVISIBLE
+[2014.09.05-20.32.16:369][389]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2014.09.05-20.32.16:388][389]LightingResults: New page: Lighting Build - Sep 5, 2014, 12:32:16 PM
+[2014.09.05-20.32.18:118][389]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2014.09.05-20.32.18:155][389]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.09.05-20.32.18:155][389]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.09.05-20.32.18:155][389]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.09.05-20.32.18:155][389]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.09.05-20.32.18:155][389]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.09.05-20.32.18:219][389]LogEditorBuildUtils: Build time 0:00:01
+[2014.09.05-20.32.18:238][389]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.32.19:383][420]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.32.19:772][429]Job is a success!
+[2014.09.05-20.32.19:883][430]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2014.09.05-20.32.19:936][430]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2014.09.05-20.32.19:945][430]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2014.09.05-20.32.19:954][430]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2014.09.05-20.32.19:965][430]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2014.09.05-20.32.20:003][430]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2014.09.05-20.32.20:224][430]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (BGRA8)
+[2014.09.05-20.32.20:317][430]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (BGRA8)
+[2014.09.05-20.32.20:376][430]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (BGRA8)
+[2014.09.05-20.32.20:404][430]Lightmass on NEODYMIUM: 1.63 sec total, 183 ms importing, 1 ms setup, 395 ms photons, 1.02 sec processing, 0 ms extra exporting [27/27 mappings]. Threads: 8.92 sec total, 593 ms processing.
+[2014.09.05-20.32.20:413][430]LogStaticLightingSystem:Warning: Illumination: 3.95 sec (508 ms encoding lightmaps)
+[2014.09.05-20.32.20:413][430]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 6 textures
+[2014.09.05-20.32.20:413][430]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 8 textures
+[2014.09.05-20.32.21:114][431]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.09.05-20.32.21:115][431]MapCheck: New page: Untitled_1 - Sep 5, 2014, 12:32:21 PM
+[2014.09.05-20.32.21:224][431]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [109.402ms] ==========
+[2014.09.05-20.32.24:721][525]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.32.24:822][525]LogSavePackage: Save=61.446255ms
+[2014.09.05-20.32.24:822][525]LogSavePackage: Moving '../../../../../../Users/Levente/Documents/Unreal Projects/TowerDefense/Saved/Untitled_1_Auto1DD309E8C46956DC233C775A8576FDDD8.tmp' to '../../../../../../Users/Levente/Documents/Unreal Projects/TowerDefense/Saved/Autosaves/Temp/Untitled_1_Auto1.umap'
+[2014.09.05-20.32.24:834][525]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.127
+[2014.09.05-20.32.24:834][525]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.127
+[2014.09.05-20.32.27:772][624]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.32.51:872][781]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.32.56:384][940]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.33.02:369][158]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.33.03:998][225]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.33.05:778][276]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.33.08:643][416]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.33.18:416][758]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.33.38:703][723]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.09.05-20.33.38:703][723]PIE: New page: PIE session: Untitled_1 (Sep 5, 2014, 12:33:38 PM)
+[2014.09.05-20.33.38:706][723]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003457s)
+[2014.09.05-20.33.38:711][723]LogPlayLevel: PIE: World Init took: (0.004248s)
+[2014.09.05-20.33.38:711][723]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.007947s)
+[2014.09.05-20.33.38:745][723]LogWorld: Game class is 'MyGame_C'
+[2014.09.05-20.33.38:746][723]LogAIModule: Creating AISystem for world Template_Default
+[2014.09.05-20.33.38:747][723]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 60) at 2014.09.05-16.33.38
+[2014.09.05-20.33.38:747][723]LogWorld: Bringing up level for play took: 0.001158
+[2014.09.05-20.33.38:748][723]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.568
+[2014.09.05-20.33.38:777][723]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 377/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.34.20:131][ 81]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007B2DD83060
+[2014.09.05-20.34.20:180][ 82]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 368/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.34.22:517][186]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.09.05-20.34.22:517][186]PIE: New page: PIE session: Untitled_1 (Sep 5, 2014, 12:34:22 PM)
+[2014.09.05-20.34.22:520][186]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003094s)
+[2014.09.05-20.34.22:524][186]LogPlayLevel: PIE: World Init took: (0.004218s)
+[2014.09.05-20.34.22:525][186]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Template_Default to /Temp/UEDPIE_0_Untitled_1.Template_Default (0.007648s)
+[2014.09.05-20.34.22:558][186]LogWorld: Game class is 'MyGame_C'
+[2014.09.05-20.34.22:559][186]LogAIModule: Creating AISystem for world Template_Default
+[2014.09.05-20.34.22:560][186]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Template_Default up for play (max tick rate 60) at 2014.09.05-16.34.22
+[2014.09.05-20.34.22:561][186]LogWorld: Bringing up level for play took: 0.001202
+[2014.09.05-20.34.22:562][186]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.755
+[2014.09.05-20.34.22:584][186]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 377/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.34.23:380][205]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007B3C4C9A80
+[2014.09.05-20.34.23:422][207]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 371/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.34.29:071][422]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.09.05-20.34.29:334][423]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.34.32:543][503]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.34.46:109][664]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2014.09.05-20.34.46:109][664]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_2) Not registered. Aborting.
+[2014.09.05-20.34.46:125][664]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007B3162B600
+[2014.09.05-20.34.46:130][664]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/cannotluanch" FILE="../../../../../../Users/Levente/Documents/Unreal Projects/TowerDefense/Content/cannotluanch.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.09.05-20.34.46:189][664]LogSavePackage: Save=35.848663ms
+[2014.09.05-20.34.46:189][664]LogSavePackage: Moving '../../../../../../Users/Levente/Documents/Unreal Projects/TowerDefense/Saved/cannotluanch93C5711D473EBF2644243BB3C7BEDE44.tmp' to '../../../../../../Users/Levente/Documents/Unreal Projects/TowerDefense/Content/cannotluanch.umap'
+[2014.09.05-20.34.46:206][664]LogFileHelpers: Saving map 'cannotluanch' took 0.318
+[2014.09.05-20.34.46:207][664]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1
+[2014.09.05-20.34.46:207][664]LightingResults: New page: Lighting Build
+[2014.09.05-20.34.46:220][664]LoadErrors: New page: Loading map: Template_Default.umap
+[2014.09.05-20.34.46:221][664]MapCheck: New page: Map Check
+[2014.09.05-20.34.46:221][664]LightingResults: New page: Lighting Build
+[2014.09.05-20.34.46:235][664]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007B2B4387C0
+[2014.09.05-20.34.46:276][664]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.09.05-20.34.46:276][664]LogAIModule: Creating AISystem for world Template_Default
+[2014.09.05-20.34.46:276][664]Cmd: MAP CHECKDEP
+[2014.09.05-20.34.46:276][664]MapCheck: New page: Untitled_2 - Sep 5, 2014, 12:34:46 PM
+[2014.09.05-20.34.46:324][664]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [47.633ms] ==========
+[2014.09.05-20.34.46:324][664]LogFileHelpers: Loading map 'Template_Default' took 0.117
+[2014.09.05-20.34.46:336][665]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.34.47:834][729]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.34.48:459][750]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 370/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.34.54:413][930]Cmd: MAP LOAD FILE="../../../../../../Users/Levente/Documents/Unreal Projects/TowerDefense/Content/Maps/Example_Map.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.09.05-20.34.54:413][930]LightingResults: New page: Lighting Build
+[2014.09.05-20.34.54:427][930]LoadErrors: New page: Loading map: Example_Map.umap
+[2014.09.05-20.34.54:427][930]MapCheck: New page: Map Check
+[2014.09.05-20.34.54:427][930]LightingResults: New page: Lighting Build
+[2014.09.05-20.34.54:446][930]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007B42296AC0
+[2014.09.05-20.34.54:520][930]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.09.05-20.34.54:520][930]LogAIModule: Creating AISystem for world Example_Map
+[2014.09.05-20.34.54:531][930]Cmd: MAP CHECKDEP
+[2014.09.05-20.34.54:531][930]MapCheck: New page: Example_Map - Sep 5, 2014, 12:34:54 PM
+[2014.09.05-20.34.54:583][930]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [52.163ms] ==========
+[2014.09.05-20.34.54:583][930]LogFileHelpers: Loading map 'Example_Map' took 0.170
+[2014.09.05-20.34.54:610][932]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 418/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.34.55:625][968]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 418/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.34.56:118][982]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 418/350 MB (ok in editor, bad on fixed memory platform)
+[2014.09.05-20.34.57:010][996]Cmd: QUIT_EDITOR
+[2014.09.05-20.34.57:122][996]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
+[2014.09.05-20.34.57:123][996]LogExit: Preparing to exit.
+[2014.09.05-20.34.58:087][996]LogExit: Editor shut down
+[2014.09.05-20.34.58:087][996]LogExit: Transaction tracking system shut down
+[2014.09.05-20.34.58:088][996]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007B2DDBCB80
+[2014.09.05-20.34.58:088][996]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007B308BF600
+[2014.09.05-20.34.58:088][996]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007B253B6340
+[2014.09.05-20.34.58:088][996]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007B3C4AA480
+[2014.09.05-20.34.58:088][996]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007B42296CA0
+[2014.09.05-20.34.58:111][996]LogExit: Object subsystem successfully closed.
+[2014.09.05-20.34.58:134][996]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (163)
+[2014.09.05-20.34.58:134][996]LogModuleManager: Shutting down and abandoning module NewLevelDialog (162)
+[2014.09.05-20.34.58:134][996]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (161)
+[2014.09.05-20.34.58:134][996]LogModuleManager: Shutting down and abandoning module HTTP (160)
+[2014.09.05-20.34.58:134][996]LogModuleManager: Shutting down and abandoning module CrashTracker (159)
+[2014.09.05-20.34.58:134][996]LogModuleManager: Shutting down and abandoning module SuperSearch (158)
+[2014.09.05-20.34.58:134][996]LogModuleManager: Shutting down and abandoning module SceneOutliner (157)
+[2014.09.05-20.34.58:134][996]LogModuleManager: Shutting down and abandoning module EditorWidgets (156)
+[2014.09.05-20.34.58:134][996]LogModuleManager: Shutting down and abandoning module CollectionManager (155)
+[2014.09.05-20.34.58:134][996]LogModuleManager: Shutting down and abandoning module StatsViewer (154)
+[2014.09.05-20.34.58:135][996]LogModuleManager: Shutting down and abandoning module FoliageEdit (153)
+[2014.09.05-20.34.58:135][996]LogModuleManager: Shutting down and abandoning module LandscapeEditor (152)
+[2014.09.05-20.34.58:135][996]LogModuleManager: Shutting down and abandoning module MeshPaint (151)
+[2014.09.05-20.34.58:135][996]LogModuleManager: Shutting down and abandoning module ActorPickerMode (150)
+[2014.09.05-20.34.58:135][996]LogModuleManager: Shutting down and abandoning module GeometryMode (149)
+[2014.09.05-20.34.58:135][996]LogModuleManager: Shutting down and abandoning module TextureAlignMode (148)
+[2014.09.05-20.34.58:135][996]LogModuleManager: Shutting down and abandoning module BspMode (147)
+[2014.09.05-20.34.58:135][996]LogModuleManager: Shutting down and abandoning module PlacementMode (146)
+[2014.09.05-20.34.58:135][996]LogModuleManager: Shutting down and abandoning module DesktopPlatform (145)
+[2014.09.05-20.34.58:135][996]LogModuleManager: Shutting down and abandoning module AutomationWorker (144)
+[2014.09.05-20.34.58:135][996]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (143)
+[2014.09.05-20.34.58:135][996]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (142)
+[2014.09.05-20.34.58:135][996]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (141)
+[2014.09.05-20.34.58:135][996]LogModuleManager: Shutting down and abandoning module UndoHistory (140)
+[2014.09.05-20.34.58:135][996]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (139)
+[2014.09.05-20.34.58:135][996]LogModuleManager: Shutting down and abandoning module UserFeedback (138)
+[2014.09.05-20.34.58:135][996]LogModuleManager: Shutting down and abandoning module XmlParser (137)
+[2014.09.05-20.34.58:135][996]LogModuleManager: Shutting down and abandoning module Blutility (136)
+[2014.09.05-20.34.58:135][996]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (135)
+[2014.09.05-20.34.58:135][996]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (134)
+[2014.09.05-20.34.58:135][996]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (133)
+[2014.09.05-20.34.58:135][996]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (132)
+[2014.09.05-20.34.58:135][996]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (131)
+[2014.09.05-20.34.58:135][996]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (130)
+[2014.09.05-20.34.58:135][996]LogModuleManager: Shutting down and abandoning module InputBindingEditor (129)
+[2014.09.05-20.34.58:135][996]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (128)
+[2014.09.05-20.34.58:135][996]LogModuleManager: Shutting down and abandoning module SettingsEditor (127)
+[2014.09.05-20.34.58:135][996]LogModuleManager: Shutting down and abandoning module SessionLauncher (126)
+[2014.09.05-20.34.58:135][996]LogModuleManager: Shutting down and abandoning module SessionFrontend (125)
+[2014.09.05-20.34.58:135][996]LogModuleManager: Shutting down and abandoning module ProfilerClient (124)
+[2014.09.05-20.34.58:135][996]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (123)
+[2014.09.05-20.34.58:135][996]LogModuleManager: Shutting down and abandoning module DeviceManager (122)
+[2014.09.05-20.34.58:135][996]LogModuleManager: Shutting down and abandoning module AutomationController (121)
+[2014.09.05-20.34.58:135][996]LogModuleManager: Shutting down and abandoning module AutomationWindow (120)
+[2014.09.05-20.34.58:135][996]LogModuleManager: Shutting down and abandoning module Layers (119)
+[2014.09.05-20.34.58:135][996]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (118)
+[2014.09.05-20.34.58:135][996]LogModuleManager: Shutting down and abandoning module DetailCustomizations (117)
+[2014.09.05-20.34.58:135][996]LogModuleManager: Shutting down and abandoning module PackagesDialog (116)
+[2014.09.05-20.34.58:135][996]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (115)
+[2014.09.05-20.34.58:136][996]LogModuleManager: Shutting down and abandoning module AssetRegistry (114)
+[2014.09.05-20.34.58:166][996]LogModuleManager: Shutting down and abandoning module Persona (113)
+[2014.09.05-20.34.58:166][996]LogModuleManager: Shutting down and abandoning module GraphEditor (112)
+[2014.09.05-20.34.58:166][996]LogModuleManager: Shutting down and abandoning module ClassViewer (111)
+[2014.09.05-20.34.58:166][996]LogModuleManager: Shutting down and abandoning module Toolbox (110)
+[2014.09.05-20.34.58:166][996]LogModuleManager: Shutting down and abandoning module ModuleUI (109)
+[2014.09.05-20.34.58:166][996]LogModuleManager: Shutting down and abandoning module Sequencer (108)
+[2014.09.05-20.34.58:166][996]LogModuleManager: Shutting down and abandoning module MovieSceneTools (107)
+[2014.09.05-20.34.58:166][996]LogModuleManager: Shutting down and abandoning module OutputLog (106)
+[2014.09.05-20.34.58:166][996]LogModuleManager: Shutting down and abandoning module GammaUI (105)
+[2014.09.05-20.34.58:166][996]LogModuleManager: Shutting down and abandoning module Documentation (104)
+[2014.09.05-20.34.58:166][996]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (103)
+[2014.09.05-20.34.58:166][996]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (102)
+[2014.09.05-20.34.58:166][996]LogModuleManager: Shutting down and abandoning module AnalyticsET (101)
+[2014.09.05-20.34.58:166][996]LogModuleManager: Shutting down and abandoning module Analytics (100)
+[2014.09.05-20.34.58:166][996]LogModuleManager: Shutting down and abandoning module GameplayDebugger (99)
+[2014.09.05-20.34.58:166][996]LogModuleManager: Shutting down and abandoning module AIModule (98)
+[2014.09.05-20.34.58:166][996]LogModuleManager: Shutting down and abandoning module ProfilerService (97)
+[2014.09.05-20.34.58:305][996]LogModuleManager: Shutting down and abandoning module TaskGraph (96)
+[2014.09.05-20.34.58:305][996]LogModuleManager: Shutting down and abandoning module SlateRemote (95)
+[2014.09.05-20.34.58:305][996]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (94)
+[2014.09.05-20.34.58:305][996]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (93)
+[2014.09.05-20.34.58:305][996]LogModuleManager: Shutting down and abandoning module CableComponent (92)
+[2014.09.05-20.34.58:305][996]LogModuleManager: Shutting down and abandoning module MessagingDebugger (91)
+[2014.09.05-20.34.58:305][996]LogModuleManager: Shutting down and abandoning module ViewportSnapping (90)
+[2014.09.05-20.34.58:305][996]LogModuleManager: Shutting down and abandoning module SmartSnapping (89)
+[2014.09.05-20.34.58:305][996]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (88)
+[2014.09.05-20.34.58:305][996]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (87)
+[2014.09.05-20.34.58:305][996]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (86)
+[2014.09.05-20.34.58:305][996]LogModuleManager: Shutting down and abandoning module Matinee (85)
+[2014.09.05-20.34.58:305][996]LogModuleManager: Shutting down and abandoning module Kismet (84)
+[2014.09.05-20.34.58:305][996]LogModuleManager: Shutting down and abandoning module SlateReflector (83)
+[2014.09.05-20.34.58:305][996]LogModuleManager: Shutting down and abandoning module LevelEditor (82)
+[2014.09.05-20.34.58:307][996]LogModuleManager: Shutting down and abandoning module IntroTutorials (81)
+[2014.09.05-20.34.58:307][996]LogModuleManager: Shutting down and abandoning module ContentBrowser (80)
+[2014.09.05-20.34.58:307][996]LogModuleManager: Shutting down and abandoning module PropertyEditor (79)
+[2014.09.05-20.34.58:308][996]LogModuleManager: Shutting down and abandoning module AssetTools (78)
+[2014.09.05-20.34.58:308][996]LogModuleManager: Shutting down and abandoning module Paper2DEditor (77)
+[2014.09.05-20.34.58:308][996]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (76)
+[2014.09.05-20.34.58:308][996]LogModuleManager: Shutting down and abandoning module PluginsEditor (75)
+[2014.09.05-20.34.58:308][996]LogModuleManager: Shutting down and abandoning module MainFrame (74)
+[2014.09.05-20.34.58:308][996]LogModuleManager: Shutting down and abandoning module EpicSurvey (73)
+[2014.09.05-20.34.58:308][996]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (72)
+[2014.09.05-20.34.58:308][996]LogModuleManager: Shutting down and abandoning module UObjectPlugin (71)
+[2014.09.05-20.34.58:308][996]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (70)
+[2014.09.05-20.34.58:308][996]LogModuleManager: Shutting down and abandoning module SourceControl (69)
+[2014.09.05-20.34.58:308][996]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (68)
+[2014.09.05-20.34.58:308][996]LogModuleManager: Shutting down and abandoning module BlankPlugin (67)
+[2014.09.05-20.34.58:308][996]LogModuleManager: Shutting down and abandoning module ScriptPlugin (66)
+[2014.09.05-20.34.58:308][996]LogModuleManager: Shutting down and abandoning module UdpMessaging (65)
+[2014.09.05-20.34.58:409][996]LogModuleManager: Shutting down and abandoning module Paper2D (64)
+[2014.09.05-20.34.58:409][996]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (63)
+[2014.09.05-20.34.58:414][996]LogModuleManager: Shutting down and abandoning module ImageWrapper (62)
+[2014.09.05-20.34.58:414][996]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (61)
+[2014.09.05-20.34.58:414][996]LogModuleManager: Shutting down and abandoning module FunctionalTesting (60)
+[2014.09.05-20.34.58:414][996]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (59)
+[2014.09.05-20.34.58:414][996]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (58)
+[2014.09.05-20.34.58:415][996]LogModuleManager: Shutting down and abandoning module MessageLog (57)
+[2014.09.05-20.34.58:415][996]LogModuleManager: Shutting down and abandoning module UMGEditor (56)
+[2014.09.05-20.34.58:415][996]LogModuleManager: Shutting down and abandoning module UMG (55)
+[2014.09.05-20.34.58:415][996]LogModuleManager: Shutting down and abandoning module Slate (54)
+[2014.09.05-20.34.58:415][996]LogModuleManager: Shutting down and abandoning module EditorStyle (53)
+[2014.09.05-20.34.58:418][996]LogModuleManager: Shutting down and abandoning module SessionServices (52)
+[2014.09.05-20.34.58:418][996]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (51)
+[2014.09.05-20.34.58:418][996]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (50)
+[2014.09.05-20.34.58:418][996]LogModuleManager: Shutting down and abandoning module XAudio2 (49)
+[2014.09.05-20.34.58:418][996]LogModuleManager: Shutting down and abandoning module Networking (47)
+[2014.09.05-20.34.58:418][996]LogModuleManager: Shutting down and abandoning module Core (46)
+[2014.09.05-20.34.58:418][996]LogModuleManager: Shutting down and abandoning module KismetCompiler (45)
+[2014.09.05-20.34.58:418][996]LogModuleManager: Shutting down and abandoning module PhysXFormats (44)
+[2014.09.05-20.34.58:418][996]LogModuleManager: Shutting down and abandoning module MeshUtilities (43)
+[2014.09.05-20.34.58:418][996]LogModuleManager: Shutting down and abandoning module DerivedDataCache (42)
+[2014.09.05-20.34.58:433][996]LogDerivedDataCache: Shutdown
+[2014.09.05-20.34.58:433][996]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (41)
+[2014.09.05-20.34.58:433][996]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (40)
+[2014.09.05-20.34.58:433][996]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (39)
+[2014.09.05-20.34.58:433][996]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (38)
+[2014.09.05-20.34.58:433][996]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (37)
+[2014.09.05-20.34.58:433][996]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (36)
+[2014.09.05-20.34.58:433][996]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (35)
+[2014.09.05-20.34.58:433][996]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (34)
+[2014.09.05-20.34.58:433][996]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (33)
+[2014.09.05-20.34.58:433][996]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (32)
+[2014.09.05-20.34.58:433][996]LogModuleManager: Shutting down and abandoning module Messaging (31)
+[2014.09.05-20.34.58:433][996]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (30)
+[2014.09.05-20.34.58:433][996]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (29)
+[2014.09.05-20.34.58:433][996]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (28)
+[2014.09.05-20.34.58:433][996]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (27)
+[2014.09.05-20.34.58:433][996]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (26)
+[2014.09.05-20.34.58:433][996]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (25)
+[2014.09.05-20.34.58:433][996]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (24)
+[2014.09.05-20.34.58:433][996]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (23)
+[2014.09.05-20.34.58:433][996]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (22)
+[2014.09.05-20.34.58:433][996]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (21)
+[2014.09.05-20.34.58:433][996]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (20)
+[2014.09.05-20.34.58:433][996]LogModuleManager: Shutting down and abandoning module TargetPlatform (19)
+[2014.09.05-20.34.58:433][996]LogModuleManager: Shutting down and abandoning module InputCore (18)
+[2014.09.05-20.34.58:433][996]LogModuleManager: Shutting down and abandoning module Settings (17)
+[2014.09.05-20.34.58:434][996]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2014.09.05-20.34.58:434][996]LogModuleManager: Shutting down and abandoning module OculusRift (13)
+[2014.09.05-20.34.58:434][996]LogModuleManager: Shutting down and abandoning module TextureCompressor (12)
+[2014.09.05-20.34.58:434][996]LogModuleManager: Shutting down and abandoning module ShaderCore (11)
+[2014.09.05-20.34.58:434][996]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2014.09.05-20.34.58:434][996]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2014.09.05-20.34.58:434][996]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (8)
+[2014.09.05-20.34.58:434][996]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2014.09.05-20.34.58:434][996]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2014.09.05-20.34.58:434][996]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.09.05-20.34.58:434][996]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.09.05-20.34.58:434][996]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.09.05-20.34.58:434][996]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.09.05-20.34.58:434][996]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.09.05-20.34.58:435][996]LogExit: Exiting.
+[2014.09.05-20.34.58:453][996]Log file closed, 09/05/14 16:34:58

@@ -1,0 +1,1 @@
+../../../TowerDefense/TowerDefense.uproject  /Temp/Autosaves/Game/UEDPCcannotluanch -Messaging /Temp/Autosaves/Game/UEDPCcannotluanch -InstanceId=0913095549BC0F5B30B846B17A62EFD3 -SessionId=87F571F44954646823A3C5835159EF73 -SessionOwner=Levente -SessionName='Play On Device'   
